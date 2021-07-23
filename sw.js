@@ -10,13 +10,13 @@ self.addEventListener('push', function (e)  {
       actions: [
         {
           action: 'explore',
-          title: 'URGENT!',
+          title: 'URGENT! Please Comply! ',
           //icon: 'images/checkmark.png'
         },
         { action: 'close', title: 'Close'}
        ]
       
     };
-    e.waitUntil(self.registration.showNotification('URGENT', options));
+    e.waitUntil(self.registration.showNotification('URGENT PLEASE AHAHAHAHAHHAHAHAHHAHAHAHAHAHAHAHAHHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAS', options));
  });
  
