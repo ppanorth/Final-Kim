@@ -1,6 +1,6 @@
 self.addEventListener('push', function (e)  {
     var options ={
-      body: 'PPA MONITORING APP',
+      body: 'PPA MONITORING APP ahahahahahahahahahahahahahahahahahahahahahahahahahahahahaha',
       //icon: 'images/example.png',
       vibrate: [100, 50, 100],
       data: {
